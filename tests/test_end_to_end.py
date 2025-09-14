@@ -120,7 +120,7 @@ class TestEndToEndIntegration:
             pytest.skip("Maven project not found")
         
         try:
-            # When - Use Maven instead of Gradle (based on your actual setup)
+            # When
             producer_process = subprocess.Popen(
                 ['mvn', 'spring-boot:run'],
                 cwd=java_producer_path,
