@@ -45,7 +45,7 @@ mkdir -p /opt/systems-integration
 cd /opt/systems-integration
 
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/systems-integration-project.git
+git clone https://github.com/USERNAME/systems-integration-project.git
 cd systems-integration-project
 ```
 
