@@ -29,7 +29,7 @@ products_data = [
     {"id": 105, "name": "Desk", "stock": 15, "price": 299.99, "category": "Furniture"}
 ]
 
-# Add more sample data to reach 1000+ records for scalability testing
+# Adding more sample data to reach 1000+ records for scalability testing
 for i in range(6, 1001):
     customers_data.append({
         "id": i,
