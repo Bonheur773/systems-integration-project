@@ -29,7 +29,7 @@ class TestPerformanceValidation:
         required_records_per_hour = 10000
         required_records_per_minute = required_records_per_hour / 60  # ~167 records/minute
         
-        # When - Use your actual performance measurements
+        # When - Using actual performance measurements
         actual_records_per_hour = self.actual_performance['records_per_hour']
         actual_records_per_minute = self.actual_performance['records_per_minute']
         
@@ -45,7 +45,7 @@ class TestPerformanceValidation:
         print(f"   Achieved: {actual_records_per_hour:,} records/hour")
         print(f"   Performance Ratio: {performance_ratio:.1f}x requirement")
         
-        # Your system significantly exceeds requirements
+        # System significantly exceeds requirements
         assert performance_ratio >= 3.0, f"Performance should exceed 3x requirement: {performance_ratio:.2f}x"
     
     def test_processing_latency_validation(self):
@@ -53,7 +53,7 @@ class TestPerformanceValidation:
         # Given
         max_acceptable_latency_ms = 100  # 100ms max per record
         
-        # When - Simulate record processing based on your actual throughput
+        # When - Simulate record processing based on actual throughput
         records_per_second = self.actual_performance['records_per_minute'] / 60  # ~8.9 records/second
         expected_latency_per_record_ms = 1000 / records_per_second  # ~112ms per record
         
@@ -70,7 +70,7 @@ class TestPerformanceValidation:
                 'timestamp': time.time(),
                 'data': f'processing_data_{i}'
             }
-            # Simulate JSON serialization (actual work your system does)
+            # Simulate JSON serialization (actual work system does)
             json.dumps(record)
             # Small processing delay to simulate real work
             time.sleep(0.001)  # 1ms per record
@@ -191,14 +191,14 @@ class TestPerformanceValidation:
         overall_end = time.perf_counter()
         total_time = overall_end - overall_start
         
-        # Then - Analyze concurrent performance
+        # concurrent performance
         total_records = sum(result['records_processed'] for result in results.values())
         overall_throughput = total_records / total_time
         
         # Convert to records per hour
         records_per_hour = overall_throughput * 3600
         
-        # Concurrent processing should still meet basic requirements
+        # Concurrent processing meet basic requirements
         assert records_per_hour >= 5000, f"Concurrent performance too low: {records_per_hour:.0f} records/hour"
         
         print(f"Concurrent Processing Test Results:")
@@ -289,7 +289,7 @@ class TestPerformanceValidation:
         actual_duration = end_time - start_time
         measured_throughput = expected_records / actual_duration
         
-        # Then - Verify monitoring accuracy
+        # monitoring accuracy
         expected_throughput = expected_records / expected_duration_seconds
         accuracy_ratio = measured_throughput / expected_throughput
         
@@ -340,7 +340,7 @@ class TestPerformanceValidation:
     
     def test_system_performance_baseline(self):
         """Establish performance baseline for your specific system"""
-        # Given - Your system's actual capabilities
+        # Given - system's actual capabilities
         baseline_metrics = {
             'records_per_hour': self.actual_performance['records_per_hour'],
             'records_per_minute': self.actual_performance['records_per_minute'],
