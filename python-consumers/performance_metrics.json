@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-09-13T23:26:04.063252",
+  "monitoring_duration_seconds": 122.041512,
+  "metrics": {
+    "throughput": {
+      "total_records": 700,
+      "customers": 700,
+      "products": 0,
+      "records_per_hour": 20648.71172687536,
+      "kafka_messages": 700
+    },
+    "performance": {
+      "avg_response_time_ms": 30.084737141927082,
+      "successful_api_calls": 0,
+      "failed_api_calls": 15,
+      "error_rate_percent": 100.0
+    },
+    "resources": {
+      "avg_cpu_percent": 20.154166666666665,
+      "avg_memory_percent": 89.91250000000001
+    }
+  },
+  "status": {
+    "meets_requirements": true,
+    "performance_multiplier": 2.064871172687536
+  }
+}

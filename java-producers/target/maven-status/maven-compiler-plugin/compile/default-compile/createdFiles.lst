@@ -1,0 +1,6 @@
+com\integration\producer\ProducerApplication.class
+com\integration\producer\Customer.class
+com\integration\producer\CustomerProducerService.class
+com\integration\producer\InventoryProducerService.class
+com\integration\producer\Product.class
+com\integration\producer\KafkaConfig.class

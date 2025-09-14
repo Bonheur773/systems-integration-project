@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-0101",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001",
+      "country": "USA"
+    },
+    "registration_date": "2024-01-15T08:30:00Z",
+    "customer_tier": "premium",
+    "total_orders": 15,
+    "lifetime_value": 2547.89
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1-555-0102",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90210",
+      "country": "USA"
+    },
+    "registration_date": "2024-01-16T10:45:00Z",
+    "customer_tier": "standard",
+    "total_orders": 8,
+    "lifetime_value": 1234.56
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "email": "bob.johnson@example.com",
+    "phone": "+1-555-0103",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601",
+      "country": "USA"
+    },
+    "registration_date": "2024-01-17T14:20:00Z",
+    "customer_tier": "gold",
+    "total_orders": 25,
+    "lifetime_value": 4567.12
+  }
+]

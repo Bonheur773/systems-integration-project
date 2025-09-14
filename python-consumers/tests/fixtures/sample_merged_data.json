@@ -1,0 +1,70 @@
+{
+  "merge_id": "cust_1_prod_101_20240115103000",
+  "timestamp": "2024-01-15T10:30:00Z",
+  "processing_metadata": {
+    "source": "kafka_integration",
+    "pipeline_version": "1.0.0",
+    "processing_time": "2024-01-15T10:30:05Z",
+    "merge_strategy": "customer_product_correlation"
+  },
+  "customer": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-0101",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001",
+      "country": "USA"
+    },
+    "registration_date": "2024-01-15T08:30:00Z",
+    "customer_tier": "premium",
+    "total_orders": 15,
+    "lifetime_value": 2547.89,
+    "type": "customer"
+  },
+  "product": {
+    "id": 101,
+    "name": "Gaming Laptop Pro",
+    "description": "High-performance gaming laptop with RTX graphics",
+    "price": 1299.99,
+    "cost": 899.99,
+    "stock": 25,
+    "category": "Electronics",
+    "subcategory": "Computers",
+    "sku": "LAP-GAMING-PRO-001",
+    "manufacturer": "TechCorp",
+    "weight": 2.8,
+    "dimensions": {
+      "length": 35.5,
+      "width": 25.2,
+      "height": 2.3
+    },
+    "last_updated": "2024-01-15T09:00:00Z",
+    "status": "active",
+    "type": "product"
+  },
+  "analytics_data": {
+    "customer_product_affinity": 0.85,
+    "purchase_probability": 0.72,
+    "recommended_quantity": 1,
+    "profit_margin": 400.00,
+    "inventory_impact": "medium",
+    "customer_segment": "high_value_electronics",
+    "product_performance_score": 9.2
+  },
+  "enrichment_data": {
+    "geo_location": {
+      "region": "northeast",
+      "timezone": "EST",
+      "market_segment": "urban_professional"
+    },
+    "seasonal_factors": {
+      "season": "winter",
+      "holiday_proximity": false,
+      "promotional_period": false
+    }
+  }
+}

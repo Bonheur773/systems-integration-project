@@ -1,0 +1,3 @@
+com\integration\KafkaIntegrationTest.class
+com\integration\InventoryProducerTest.class
+com\integration\CustomerProducerTest.class

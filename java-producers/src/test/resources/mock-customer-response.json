@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "country": "USA"
+    },
+    "created_date": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1987654321",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "country": "USA"
+    },
+    "created_date": "2024-01-16T14:20:00Z"
+  }
+]

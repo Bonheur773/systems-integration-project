@@ -1,0 +1,62 @@
+[
+  {
+    "id": 101,
+    "name": "Gaming Laptop Pro",
+    "description": "High-performance gaming laptop with RTX graphics",
+    "price": 1299.99,
+    "cost": 899.99,
+    "stock": 25,
+    "category": "Electronics",
+    "subcategory": "Computers",
+    "sku": "LAP-GAMING-PRO-001",
+    "manufacturer": "TechCorp",
+    "weight": 2.8,
+    "dimensions": {
+      "length": 35.5,
+      "width": 25.2,
+      "height": 2.3
+    },
+    "last_updated": "2024-01-15T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": 102,
+    "name": "Wireless Gaming Mouse",
+    "description": "Ergonomic wireless mouse with RGB lighting",
+    "price": 79.99,
+    "cost": 45.99,
+    "stock": 150,
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "sku": "MOUSE-WIRELESS-RGB-002",
+    "manufacturer": "GamerTech",
+    "weight": 0.12,
+    "dimensions": {
+      "length": 12.5,
+      "width": 6.8,
+      "height": 4.2
+    },
+    "last_updated": "2024-01-15T09:15:00Z",
+    "status": "active"
+  },
+  {
+    "id": 103,
+    "name": "4K Webcam",
+    "description": "Ultra HD webcam for professional streaming",
+    "price": 199.99,
+    "cost": 129.99,
+    "stock": 45,
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "sku": "CAM-4K-PRO-003",
+    "manufacturer": "StreamTech",
+    "weight": 0.35,
+    "dimensions": {
+      "length": 8.5,
+      "width": 4.2,
+      "height": 7.8
+    },
+    "last_updated": "2024-01-15T09:30:00Z",
+    "status": "active"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 101,
+    "name": "Gaming Laptop",
+    "description": "High-performance gaming laptop",
+    "price": 1299.99,
+    "stock": 25,
+    "category": "Electronics",
+    "sku": "LAP-GAMING-001",
+    "last_updated": "2024-01-15T09:00:00Z"
+  },
+  {
+    "id": 102,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse",
+    "price": 49.99,
+    "stock": 150,
+    "category": "Accessories",
+    "sku": "MOUSE-WIRELESS-002",
+    "last_updated": "2024-01-15T09:00:00Z"
+  }
+]
